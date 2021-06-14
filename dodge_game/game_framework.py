@@ -1,4 +1,3 @@
-# Version 2018-11-20
 
 class GameState:
     def __init__(self, state):
