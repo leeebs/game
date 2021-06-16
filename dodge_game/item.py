@@ -5,6 +5,7 @@ import game_world
 import layer
 import images
 
+
 class Item:
     RUN_SPEED_PPS = 200
     def __init__(self, x, y, dx, dy):
