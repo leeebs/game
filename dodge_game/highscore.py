@@ -27,7 +27,7 @@ class Highscore:
             self.lastRank = len(self.scores)
         if (len(self.scores) > Highscore.MAX_SCORE_COUNT):
             self. scores.pop(-1)
-    def draw(self):
+    def draw(self): 
         y = 160
         for e in self.scores:
             str = "{:5.1f}".format(e.score)
