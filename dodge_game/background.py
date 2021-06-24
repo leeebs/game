@@ -11,7 +11,7 @@ class Background:
     def update(self):
         hw = get_canvas_width() // 2
         hh = get_canvas_height() // 2
-        dx, dy = self.target.x - hw, self.target.y - hh
+        dx, dy = self.target.x - hw, self.target.y - hh  
         self.space_point = hw - 0.02 * dx, hh - 0.02 * dy
         self.stars_point = hw - 0.05 * dx, hh - 0.05 * dy
     def draw(self):
