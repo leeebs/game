@@ -5,9 +5,9 @@ images = {}
 
 def get(file):
     global images
-    if file in images:
-        return images[file]
+    if file in images: 
+        return images[file] 
 
     image = load_image(file)
-    images[file] = image
+    images[file] = image 
     return image
