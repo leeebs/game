@@ -11,5 +11,5 @@ def get(file, size):
         return fonts[key]
 
     font = load_font(file, size) 
-    fonts[key] = font 
-    return font
+    fonts[key] = font  
+    return font 
