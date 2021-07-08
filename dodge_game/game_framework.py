@@ -48,7 +48,7 @@ def change_state(state):
     if (len(stack) > 0):
         stack.pop().exit()
     stack.append(state)
-    state.enter()
+    state.enter() 
 
 
 
