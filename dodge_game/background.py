@@ -7,7 +7,7 @@ class Background:
         self.image_stars = images.get('stars.png')
         self.space_point = 0, 0
         self.stars_point = 0, 0
-        self.target = None
+        self.target = None 
     def update(self):
         hw = get_canvas_width() // 2
         hh = get_canvas_height() // 2
