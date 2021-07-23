@@ -5,8 +5,8 @@ import game_world
 import layer
 
 class Missile:
-    RUN_SPEED_PPS = 200
-    image = None
+    RUN_SPEED_PPS = 200 
+    image = None 
     def __init__(self, x, y, dx, dy, size):
         if Missile.image == None:
             Missile.image = load_image('fireball.png')
