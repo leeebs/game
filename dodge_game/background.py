@@ -15,5 +15,5 @@ class Background:
         self.space_point = hw - 0.02 * dx, hh - 0.02 * dy
         self.stars_point = hw - 0.05 * dx, hh - 0.05 * dy
     def draw(self):
-        self.image_space.draw(*self.space_point)
+        self.image_space.draw(*self.space_point) 
         self.image_stars.draw(*self.stars_point)   #=self.stars_point[0], self.stars_point[0]
