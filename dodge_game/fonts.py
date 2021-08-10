@@ -12,4 +12,4 @@ def get(file, size):
 
     font = load_font(file, size) 
     fonts[key] = font  
-    return font 
+    return font  
